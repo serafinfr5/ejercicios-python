@@ -2,7 +2,8 @@ notas = []
 
 for i in range(1, 6):
     nota = float(input(f"Introduce la nota {i} (de 0 a 10): "))
-    notas.append(nota)
+    if nota >= 0 and nota <= 10:
+        notas.append(nota)
 
 suma_total = sum(notas)
 media = suma_total / 5
