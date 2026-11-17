@@ -13,7 +13,7 @@ while intentos < 3 and acceso == False:
   contrasena = input("Introduce la contraseña: ")
   if acceso == True:
      print ("Acceso Permitido.")
-  else acceso == False:
+  else:
      print("Usuario o Contraseña incorrectas.")
      print("Intentos restantes: ", 3- intentos)
 if acceso == False:
