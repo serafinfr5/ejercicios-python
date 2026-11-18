@@ -12,7 +12,6 @@ while intentos < 3 and acceso == False:
   usuario = input("Introduce el usuario: ")
   contrasena = input("Introduce la contraseña: ")
   
-  #Sin esto no me cuenta los intentos, pero no la veo.¡DUDA!
   acceso, intentos = Login(usuario, contrasena, intentos) 
   
   if acceso == True:
